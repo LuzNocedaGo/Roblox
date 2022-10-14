@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    height: 100vh;
+    background-color: black;
+}
+.relative{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 0% 100% 47% 53% / 48% 58% 42% 52%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(0,212,255,1) 65%, rgba(8,28,133,1) 100%, rgba(9,9,121,1) 100%);
+    left: 50px;
+    top: 2000px;
+}
+.relative2{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 50% 50% 47% 53% / 84% 58% 42% 16% ;
+    background: rgb(255,59,0);
+    background: linear-gradient(90deg, rgba(255,59,0,1) 16%, rgba(133,8,105,1) 90%);
+    top: 450px;
+    left: 500px;
+}
+.relative3{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 0% 100% 0% 100% / 100% 100% 0% 0%;
+    background: rgb(87,255,0);
+    background: linear-gradient(90deg, rgba(87,255,0,1) 35%, rgba(8,38,133,1) 81%);
+    top: 100px;
+    left: 900px;
+}
+.relative4{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 45% 55% 0% 100% / 100% 100% 0% 0% ;
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
+    top: 600px;
+    left: 1000px;
+}
+.relative5{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 90% 10% 62% 38% / 53% 51% 49% 47% ;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    top: 600px;
+    left: 20px;
+}
+.relative6{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 0% 100% 62% 38% / 38% 51% 49% 62% ;
+    background: rgb(131,58,180);
+    background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
+    top: 1000px;
+    left: 500px;
+}
+.relative7{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 100% 0% 62% 38% / 38% 51% 49% 62% ;
+    background: rgb(238,174,174);
+    background: radial-gradient(circle, rgba(238,174,174,1) 0%, rgba(194,233,148,1) 100%);
+    top: 1300px;
+    left: 20px;
+}
+.relative8{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 100% 0% 100% 0% / 23% 71% 29% 77% ;
+    background: rgb(0,255,179);
+    background: linear-gradient(90deg, rgba(0,255,179,1) 35%, rgba(125,8,133,1) 81%);
+    top: 1350px;
+    left: 1000px;
+}
+.relative9{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 29% 71% 42% 58% / 24% 20% 80% 76% ;
+    background: rgb(86,58,180);
+    background: linear-gradient(90deg, rgba(86,58,180,1) 0%, rgba(253,29,203,1) 50%, rgba(69,242,252,1) 100%);
+    top: 1800px;
+    left: 700px;
+}
+.relative10{
+    position: absolute;
+    width: 250px;
+    height: 259px;
+    border-radius: 29% 71% 42% 58% / 24% 73% 27% 76% ;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(253,45,224,1) 100%);
+    top: 1000px;
+    left: 900px;
+}
+.h11{
+    text-align: center;
+    color: white;
+    font-size: 100px;
+}
+p{
+    color: white;
+    font-size: 40px;
+}
+img{
+    max-width: 40%;
+    margin: 10px;
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.figure{
+    z-index: 0;
+}
+h1, p, img{
+    z-index: 1;
+    position: relative;
+}
+.youtube{
+    z-index: 100;
+    position: fixed;
+    left: 20px;
+    top: 200px;
+    display: inline-block;
+    width: 800px;
+}
+.owlhouse{
+    font-size: 20px;
+    color: white;
+    margin-top: 50px;
+    z-index: 1;
+    position: relative;
+}
